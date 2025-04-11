@@ -17,14 +17,12 @@ function App() {
     setCounter(counter-1)}
     else{
       console.log("counter cant go less then zero");
-      
-      
     }
   }
   return (
     <>
-      <h1>chai aur react</h1>
-      <h2>counter value : {counter}</h2>
+      <h1>chai aur react</h1><br /><br />
+      <h2>counter value : {counter}</h2><br />
       <button
       onClick={addValue}
       >Add value</button>
